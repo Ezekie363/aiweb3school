@@ -21,7 +21,7 @@ function zhHandbookLink(section: 'ai' | 'web3' | 'bridge' | 'tracks', title: str
 const zhRoadmapSidebar = [
   { text: zhSidebar.rootTitle, link: '/zh/' },
   {
-    text: 'AI',
+    text: 'AI 基础',
     collapsed: false,
     items: playgroundRoadmap.topLeft.nodes.map((node) => ({
       text: displayRoadmapTitle(node.title, 'zh'),
@@ -29,7 +29,7 @@ const zhRoadmapSidebar = [
     })),
   },
   {
-    text: 'Web3',
+    text: 'Web3 基础',
     collapsed: false,
     items: playgroundRoadmap.topRight.nodes.map((node) => ({
       text: displayRoadmapTitle(node.title, 'zh'),
@@ -37,7 +37,7 @@ const zhRoadmapSidebar = [
     })),
   },
   {
-    text: displayRoadmapTitle(playgroundRoadmap.fusion.label, 'zh'),
+    text: 'AI × Web3 Bridge',
     collapsed: false,
     items: playgroundRoadmap.fusion.cards.map((card) => ({
       text: displayRoadmapTitle(card.title, 'zh'),
@@ -45,7 +45,7 @@ const zhRoadmapSidebar = [
     })),
   },
   {
-    text: '黑客松赛道（Hackathon Tracks）',
+    text: '前沿探索',
     collapsed: false,
     items: playgroundRoadmap.splits.map((split) => ({
       text: displayRoadmapTitle(split.label, 'zh'),

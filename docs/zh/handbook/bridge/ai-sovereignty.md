@@ -1,10 +1,10 @@
 ---
-title: AI Sovereignty
+title: AI 主权（AI Sovereignty）
 createTime: 2026/05/12 00:00:00
 permalink: /zh/handbook/bridge/ai-sovereignty/
 ---
 
-# AI Sovereignty
+# AI 主权（AI Sovereignty）
 
 > 本页是 AI x Web3 School handbook 的框架页。当前先提供稳定结构和最小解释，方便后续逐步补充案例、图示、练习和精选外部资料。
 

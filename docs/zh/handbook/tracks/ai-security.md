@@ -1,10 +1,10 @@
 ---
-title: AI Security
+title: AI 安全（AI Security）
 createTime: 2026/05/12 00:00:00
 permalink: /zh/handbook/tracks/ai-security/
 ---
 
-# AI Security
+# AI 安全（AI Security）
 
 > 当 AI Agent 开始读取文档、调用工具、连接钱包、发起交易时，安全问题就不再只是“模型会不会答错”。真正的问题是：它拿到了什么信息，能调用什么权限，出错以后谁能发现，关键动作有没有交回给人确认。
 

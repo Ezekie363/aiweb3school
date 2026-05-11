@@ -15,6 +15,12 @@ type LogoWallSection = {
   items: LogoItem[]
 }
 
+const props = withDefaults(defineProps<{
+  variant?: 'default' | 'compact'
+}>(), {
+  variant: 'default',
+})
+
 const routeLocale = useRouteLocale()
 const localeKey = computed(() => routeLocale.value === '/en/' ? 'en' : 'zh')
 
@@ -37,14 +43,14 @@ const logoWallContent = {
   zh: [
     {
       eyebrow: 'COLLABORATE',
-      title: 'Build Together With',
+      title: '合作伙伴与支持方',
       items: sharedLogos,
     },
   ],
   en: [
     {
       eyebrow: 'COLLABORATE',
-      title: 'Build Together With',
+      title: 'Partners & Supporters',
       items: sharedLogos,
     },
   ],
@@ -54,7 +60,11 @@ const sections = computed(() => logoWallContent[localeKey.value])
 </script>
 
 <template>
-  <section class="logo-wall" aria-label="AI x Web3 School partners">
+  <section
+    class="logo-wall"
+    :class="{ 'logo-wall-compact': props.variant === 'compact' }"
+    aria-label="AI x Web3 School partners"
+  >
     <section
       v-for="section in sections"
       :key="section.eyebrow"
@@ -194,6 +204,49 @@ const sections = computed(() => logoWallContent[localeKey.value])
   display: none;
 }
 
+.logo-wall-compact {
+  left: auto;
+  width: 100%;
+  margin-left: 0;
+  padding: 28px 0 36px;
+}
+
+.logo-wall-compact .logo-wall-section {
+  width: 100%;
+}
+
+.logo-wall-compact .logo-wall-head {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.logo-wall-compact .logo-wall-eyebrow {
+  min-height: 30px;
+  margin-bottom: 10px;
+  padding: 0 14px;
+  font-size: 12px;
+}
+
+.logo-wall-compact .logo-wall-head h2 {
+  font-size: 24px;
+}
+
+.logo-wall-compact .logo-wall-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.logo-wall-compact .logo-wall-card {
+  min-height: 94px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo-wall-compact .logo-wall-logo {
+  width: min(76%, 190px);
+  max-height: 54px;
+}
+
 :global(html[data-theme='dark']) .logo-wall-eyebrow {
   border-color: rgba(188, 153, 255, 0.24);
   background: rgba(196, 170, 255, 0.09);
@@ -240,6 +293,11 @@ const sections = computed(() => logoWallContent[localeKey.value])
   .logo-wall {
     padding-right: 12px;
     padding-left: 12px;
+  }
+
+  .logo-wall-compact {
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .logo-wall-grid {

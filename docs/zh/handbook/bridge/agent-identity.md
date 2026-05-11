@@ -1,10 +1,10 @@
 ---
-title: Agent Identity
+title: 智能体身份（Agent Identity）
 createTime: 2026/05/12 00:00:00
 permalink: /zh/handbook/bridge/agent-identity/
 ---
 
-# Agent Identity
+# 智能体身份（Agent Identity）
 
 > 本页是 AI x Web3 School handbook 的框架页。当前先提供稳定结构和最小解释，方便后续逐步补充案例、图示、练习和精选外部资料。
 

@@ -1,10 +1,10 @@
 ---
-title: Agent Wallet
+title: 智能体钱包（Agent Wallet）
 createTime: 2026/05/12 00:00:00
 permalink: /zh/handbook/bridge/agent-wallet/
 ---
 
-# Agent Wallet
+# 智能体钱包（Agent Wallet）
 
 > Agent Wallet 不是“给 AI 一个钱包私钥”这么简单。真正要解决的问题是：Agent 可以代表用户做哪些链上动作，这些动作有没有额度、时间、对象和风险限制，用户什么时候必须重新确认。
 

@@ -1,10 +1,10 @@
 ---
-title: Open Track
+title: 开放赛道（Open Track）
 createTime: 2026/05/12 00:00:00
 permalink: /zh/handbook/tracks/open-track/
 ---
 
-# Open Track
+# 开放赛道（Open Track）
 
 > 本页是 AI x Web3 School handbook 的框架页。当前先提供稳定结构和最小解释，方便后续逐步补充案例、图示、练习和精选外部资料。
 

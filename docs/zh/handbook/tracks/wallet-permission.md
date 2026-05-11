@@ -1,10 +1,10 @@
 ---
-title: Wallet / Permission
+title: 钱包与权限（Wallet / Permission）
 createTime: 2026/05/12 00:00:00
 permalink: /zh/handbook/tracks/wallet-permission/
 ---
 
-# Wallet / Permission
+# 钱包与权限（Wallet / Permission）
 
 > 本页是 AI x Web3 School handbook 的框架页。当前先提供稳定结构和最小解释，方便后续逐步补充案例、图示、练习和精选外部资料。
 

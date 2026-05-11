@@ -31,15 +31,15 @@ const footerZh = `
     <nav class="aiw3-footer-links" aria-label="Footer navigation">
       <section>
         <h3>学习</h3>
-        <a href="/zh/ai-fundamentals/">AI 基础</a>
-        <a href="/zh/blockchain-basics/">Web3 基础</a>
-        <a href="/zh/ai-agents/">AI Agent</a>
+        <a href="/zh/handbook/ai/llm/">AI 基础</a>
+        <a href="/zh/handbook/web3/network/">Web3 基础</a>
+        <a href="/zh/handbook/bridge/chain-aware-context/">AI × Web3 Bridge</a>
       </section>
       <section>
-        <h3>实践</h3>
-        <a href="/zh/project-guide/">项目指南</a>
-        <a href="/zh/case-studies/">案例分析</a>
-        <a href="/zh/resources/">学习资源</a>
+        <h3>探索</h3>
+        <a href="/zh/handbook/tracks/agentic-commerce/">Agentic Commerce</a>
+        <a href="/zh/handbook/tracks/wallet-permission/">Wallet / Permission</a>
+        <a href="/zh/handbook/tracks/ai-security/">AI Security</a>
       </section>
       <section>
         <h3>社区</h3>
