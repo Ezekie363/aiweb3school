@@ -49,6 +49,12 @@ const sharedLogos: LogoItem[] = [
     lightSrc: '/images/logos/zai-light.svg',
     darkSrc: '/images/logos/zai-dark.svg',
   },
+  {
+    name: 'Cobo Agentic Wallet',
+    href: 'https://www.cobo.com/agentic-wallet',
+    lightSrc: '/images/logos/cobo-agentic-wallet-light.png',
+    darkSrc: '/images/logos/cobo-agentic-wallet-dark.png',
+  },
 ]
 
 const logoWallContent = {
