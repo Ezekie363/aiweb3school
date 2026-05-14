@@ -97,6 +97,12 @@ const sharedLogos: LogoItem[] = [
     lightSrc: '/images/logos/apac-dao-light.png',
     darkSrc: '/images/logos/apac-dao-dark.png',
   },
+  {
+    name: 'OpenCSG',
+    href: 'https://opencsg.com/',
+    lightSrc: '/images/logos/opencsg-light.svg',
+    darkSrc: '/images/logos/opencsg-dark.svg',
+  },
 ]
 
 const logoWallContent = {
