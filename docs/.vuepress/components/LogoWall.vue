@@ -109,6 +109,12 @@ const sharedLogos: LogoItem[] = [
     lightSrc: '/images/logos/napul-eth-light.png',
     darkSrc: '/images/logos/napul-eth-dark.png',
   },
+  {
+    name: 'DEV3PACK',
+    href: 'https://dev3pack.xyz/',
+    lightSrc: '/images/logos/dev3pack-light.png',
+    darkSrc: '/images/logos/dev3pack-dark.png',
+  },
 ]
 
 const logoWallContent = {
