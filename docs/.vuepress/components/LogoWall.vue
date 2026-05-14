@@ -79,6 +79,12 @@ const sharedLogos: LogoItem[] = [
     lightSrc: '/images/logos/ethvietnam-light.png',
     darkSrc: '/images/logos/ethvietnam-dark.png',
   },
+  {
+    name: 'Ethereum Singapore',
+    href: 'https://ethereumsingapore.com/',
+    lightSrc: '/images/logos/ethereum-singapore-light.png',
+    darkSrc: '/images/logos/ethereum-singapore-dark.png',
+  },
 ]
 
 const logoWallContent = {
