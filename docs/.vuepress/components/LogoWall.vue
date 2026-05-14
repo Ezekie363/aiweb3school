@@ -139,6 +139,12 @@ const sharedLogos: LogoItem[] = [
     lightSrc: '/images/logos/altlayer-light.png',
     darkSrc: '/images/logos/altlayer-dark.png',
   },
+  {
+    name: 'TechFlow 深潮',
+    href: 'https://www.techflowpost.com/',
+    lightSrc: '/images/logos/techflow-light.svg',
+    darkSrc: '/images/logos/techflow-dark.svg',
+  },
 ]
 
 const logoWallContent = {
