@@ -73,6 +73,12 @@ const sharedLogos: LogoItem[] = [
     lightSrc: '/images/logos/web3privacy-now-light.svg',
     darkSrc: '/images/logos/web3privacy-now-dark.svg',
   },
+  {
+    name: 'ETHVIETNAM',
+    href: 'https://www.eth-vietnam.com/',
+    lightSrc: '/images/logos/ethvietnam-light.png',
+    darkSrc: '/images/logos/ethvietnam-dark.png',
+  },
 ]
 
 const logoWallContent = {
