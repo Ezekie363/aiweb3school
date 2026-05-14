@@ -79,12 +79,12 @@ const bootcampContent = {
 
 const localeKey = computed(() => (routeLocale.value === "/en/" ? "en" : "zh"));
 const content = computed(() => bootcampContent[localeKey.value]);
-const topicSummary = computed(() => content.value.topics.join(" / "));
 const highlights = computed(() => [
   ...content.value.phases,
   {
     label: content.value.topicLabel,
-    value: topicSummary.value,
+    value: "",
+    topics: content.value.topics,
     icon: "direction",
   },
 ]);
@@ -169,7 +169,16 @@ const highlights = computed(() => [
             loading="lazy"
           >
           <strong>{{ phase.label }}</strong>
-          <span>{{ phase.value }}</span>
+          <span v-if="'topics' in phase" class="bootcamp-topic-list">
+            <span
+              v-for="topic in phase.topics"
+              :key="topic"
+              class="bootcamp-topic-item"
+            >
+              {{ topic }}
+            </span>
+          </span>
+          <span v-else>{{ phase.value }}</span>
         </div>
       </div>
     </div>
@@ -418,6 +427,11 @@ const highlights = computed(() => [
   margin-top: auto;
 }
 
+.bootcamp-metric-3 span {
+  font-size: clamp(18px, 1.62vw, 24px);
+  white-space: nowrap;
+}
+
 .bootcamp-metric strong {
   position: relative;
   display: block;
@@ -435,6 +449,16 @@ const highlights = computed(() => [
   font-weight: 800;
   line-height: 1.34;
   overflow-wrap: anywhere;
+}
+
+.bootcamp-topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bootcamp-topic-item {
+  display: block;
 }
 
 :global(html[data-theme="dark"]) .bootcamp-card {
@@ -588,6 +612,10 @@ const highlights = computed(() => [
 
   .bootcamp-metric span {
     font-size: 19px;
+  }
+
+  .bootcamp-metric-3 span {
+    font-size: 17px;
   }
 
   .bootcamp-topics span {
