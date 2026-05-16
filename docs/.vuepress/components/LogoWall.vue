@@ -56,16 +56,28 @@ const sharedLogos: LogoItem[] = [
     darkSrc: '/images/logos/elytro-dark.png',
   },
   {
-    name: 'Ethereum Foundation Dev Growth',
-    href: 'https://ethereum.foundation/',
-    lightSrc: '/images/logos/ethereum-foundation-dev-growth-light.png',
-    darkSrc: '/images/logos/ethereum-foundation-dev-growth-dark.png',
+    name: 'LI.FI',
+    href: 'https://li.fi/',
+    lightSrc: '/images/logos/lifi-light.svg',
+    darkSrc: '/images/logos/lifi-dark.svg',
+  },
+  {
+    name: 'AltLayer',
+    href: 'https://altlayer.io/',
+    lightSrc: '/images/logos/altlayer-light.png',
+    darkSrc: '/images/logos/altlayer-dark.png',
   },
   {
     name: 'PHALA',
     href: 'https://phala.com/',
     lightSrc: '/images/logos/phala-light.png',
     darkSrc: '/images/logos/phala-dark.png',
+  },
+  {
+    name: 'Ethereum Foundation Dev Growth',
+    href: 'https://ethereum.foundation/',
+    lightSrc: '/images/logos/ethereum-foundation-dev-growth-light.png',
+    darkSrc: '/images/logos/ethereum-foundation-dev-growth-dark.png',
   },
   {
     name: 'Web3Privacy Now',
@@ -126,18 +138,6 @@ const sharedLogos: LogoItem[] = [
     href: 'https://www.deepfunding.org/',
     lightSrc: '/images/logos/deep-funding-light.svg',
     darkSrc: '/images/logos/deep-funding-dark.svg',
-  },
-  {
-    name: 'LI.FI',
-    href: 'https://li.fi/',
-    lightSrc: '/images/logos/lifi-light.svg',
-    darkSrc: '/images/logos/lifi-dark.svg',
-  },
-  {
-    name: 'AltLayer',
-    href: 'https://altlayer.io/',
-    lightSrc: '/images/logos/altlayer-light.png',
-    darkSrc: '/images/logos/altlayer-dark.png',
   },
   {
     name: 'TechFlow 深潮',
