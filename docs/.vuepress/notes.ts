@@ -107,13 +107,13 @@ export const zhNotes = defineNotesConfig({
 });
 
 const schoolNoteEn = defineNoteConfig({
-  dir: '',
-  link: '/',
+  dir: 'handbook',
+  link: '/handbook',
   sidebar: enRoadmapSidebar,
 });
 
 export const enNotes = defineNotesConfig({
   dir: '/',
-  link: '/en',
+  link: '/',
   notes: [schoolNoteEn],
 });
