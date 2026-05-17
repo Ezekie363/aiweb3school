@@ -114,6 +114,6 @@ const schoolNoteEn = defineNoteConfig({
 
 export const enNotes = defineNotesConfig({
   dir: '/',
-  link: '/',
+  link: '/en',
   notes: [schoolNoteEn],
 });
